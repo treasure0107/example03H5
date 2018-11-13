@@ -1,7 +1,5 @@
 # appleMobile
 
-> 苹果交易所移动端
-
 ## 项目结构
 ``` bash
 # src/assets
@@ -27,18 +25,6 @@ vuex状态存储
 
 # src/views
 项目页面文件
-
-# src/views/CoinTrade
-币币交易
-
-# src/views/ContractTrade
-合约交易
-
-# src/views/CurrencytTrade
-法币交易
-
-# src/views/QuotationServer
-行情
 
 # src/views/Index
 主页
@@ -73,6 +59,4 @@ npm run build
 # 本地运行打包文件(需安装node服务器)
 cd dist
 http-server
-
-```
 
