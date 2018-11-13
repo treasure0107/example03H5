@@ -1,0 +1,40 @@
+// stylelint-disable
+// 字体，颜色，按钮 公共样式
+
+$white:    #fff !default;
+$font-100: #0E304C !default;
+$font-200: #4A647A !default;
+$font-300: #808C99 !default;
+$font-400: #50565C !default;
+$font-500: #ADB7C1 !default;
+$font-600: #B5C0CB !default;
+
+$checked: #398EDE;
+$unChecked: #808C99;
+
+$background: #F7F9FC;
+$titleBackground: #F7FBFC;
+
+$fonts: () !default;
+$fonts: map-merge((
+  "100": $font-100,
+  "200": $font-200,
+  "300": $font-300,
+  "400": $font-400,
+  "500": $font-500,
+  "600": $font-600,
+), $fonts);
+
+$blue:    #3291EB !default;
+$red:     #F5174D !default;
+$green:   #1DD25D !default;
+$colors: () !default;
+$colors: map-merge((
+  "blue": $blue,
+  "red": $red,
+  "green": $green,
+), $colors);
+
+$primary: $blue !default;
+$success: $green !default;
+$danger: $red !default;

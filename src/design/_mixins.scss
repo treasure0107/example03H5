@@ -1,0 +1,14 @@
+// 背景图片
+@mixin bg-icon($url, $width, $height: $width) {
+    background-image: url('https://appleusdtcom.oss-cn-shenzhen.aliyuncs.com/icon-png/#{$url}');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: $width;
+    height: $height;
+  }
+
+// border
+@mixin border ($color) {
+  border: 1px solid $color;
+}
